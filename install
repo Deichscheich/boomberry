@@ -6,8 +6,10 @@
 
 apt-get update
 apt-get upgrade
-apt-get install rpi-update ampache 
+apt-get install rpi-update ampache
+
 rpi-update
+
 
 ###################################
 # Reboot is required							#
