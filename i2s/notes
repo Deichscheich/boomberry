@@ -1,0 +1,7 @@
+
+FROM https://plus.google.com/103038280111218158417/posts/MgowhnFgZkr
+Should be possible with TDA1541 driver, but you should try the hifiberry driver in the current raspberry pi 3.10 and 3.12 kernel. No compilation needed. Just do a "sudo rpi-update" and load these modules:
+snd_soc_bcm2708_i2s
+bcm2708_dmaengine
+snd_soc_pcm5102a
+snd_soc_hifiberry_dac﻿
